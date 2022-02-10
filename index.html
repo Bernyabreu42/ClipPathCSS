@@ -12,9 +12,11 @@
 <body>
 
   <div class="content">
+
+
     <div class="cubo">
-      <img class="house" src="house.jpg" draggable="false" alt="">
-      <img class="sofa" src="sofa.png" draggable="false" alt="">
+      <img class="house" src="./img/house.jpg" draggable="false" alt="">
+      <img class="sofa" src="./img/sofa.png" draggable="false" alt="">
       <div class="left"></div>
       <div class="top"></div>
       <div class="center"></div>
@@ -22,9 +24,14 @@
       <span id="color"></span>
     </div>
 
+    <div class="cursor">
+      <span class="mouse">&nbsp;</span>
+      <span class="color">&nbsp;</span>
+    </div>
+
     <div class="paleta"></div>
   </div>
-
+  <br>
 
 
 
@@ -32,3 +39,11 @@
 </body>
 
 </html>
+
+
+
+<!-- 
+const custom = document.querySelector('.moduletable')
+custom.addEventListener('click', (e) =>{
+console.log(e)
+}) -->
